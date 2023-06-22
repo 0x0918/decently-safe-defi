@@ -35,7 +35,7 @@ forge install
 3. **Code your solutions in the provided `[NAME_OF_THE_LEVEL].t.sol` files (inside each level's folder in the test folder)**
 4. **Run your exploit for a challenge**
 ```
-make [CONTRACT_LEVEL_NAME]
+forge test --match-contract [ChallengeName] -vvvv
 ```
 or
 ```
