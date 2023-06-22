@@ -7,56 +7,20 @@
 
 case $1 in
 
-  unstoppable | 1 | unst)
-    forge test --match-contract Unstoppable
+  free2call | 1 | unst)
+    forge test --match-contract Free2Call
     ;;
 
-  naive-receiver | 2 | naiv)
-    forge test --match-contract NaiveReceiver
+  twice-as-nice | 2 | naiv)
+    forge test --match-contract TwiceAsNice
     ;;
 
-  truster | 3 | trus)
-    forge test --match-contract Truster
+  stir-it-up | 3 | trus)
+    forge test --match-contract StirItUp
     ;;
 
-  side-entrance | 4 | side)
-    forge test --match-contract SideEntrance
-    ;;
-
-  the-rewarder | 5 | rewa)
-    forge test --match-contract TheRewarder
-    ;;
-
-  selfie | 6 | self)
-    forge test --match-contract Selfie
-    ;;
-
-  compromised | 7 | comp)
-    forge test --match-contract Compromised
-    ;;
-
-  puppet | 8 | pupp)
-    forge test --match-contract Puppet --no-match-contract PuppetV2
-    ;;
-
-  puppet-v2 | 9 | pupp2)
-    forge test --match-contract PuppetV2
-    ;;
-
-  free-rider | 10 | free)
-    forge test --match-contract FreeRider
-    ;;
-
-  backdoor | 11 | back)
-    forge test --match-contract Backdoor
-    ;;
-
-  climber | 12 | clim)
-    forge test --match-contract Climber
-    ;;
-
-  safe-miners | 13 | safe)
-    forge test --match-contract SafeMiners
+  honeypot | 4 | side)
+    forge test --match-contract Honeypot
     ;;
 
   *)
