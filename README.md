@@ -3,12 +3,10 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/ngp2311?label=Follow%20me%20%40AshiqAmien&style=social)](https://twitter.com/AshiqAmien)
 
-Visit [damnvulnerabledefi.xyz](https://damnvulnerabledefi.xyz)
-
 ### Acknowledgement
 *Big thanks to [Tincho](https://twitter.com/tinchoabbate) who created the [first version of this game](https://github.com/tinchoabbate/damn-vulnerable-defi/tree/v2.0.0) and to all the fellows behind the [Foundry Framework](https://github.com/gakonst/foundry/graphs/contributors). Further thanks to [Nicolás García](https://github.com/nicolasgarcia214), who ported Damn Vulnerable Defi to foundry.*
 
-Decently Safe Defi is an unofficial fork of Damn Vulnerable DeFi, a wargame to learn offensive security of DeFi smart contracts.
+Decently Safe DeFi is an unofficial fork of [Damn Vulnerable DeFi](https://damnvulnerabledefi.xyz), a wargame to learn offensive security of DeFi smart contracts.
 
 Decently Safe Defi is different from Damn Vulnerable Defi since its challenges are based on dead end bug leads of real protocols. The challenges are created by subtly removing the last line of defence, or reversing a minor misconfiguration of a protocol to produce a critical result.
 
