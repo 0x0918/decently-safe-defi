@@ -76,7 +76,7 @@ contract Free2Call is Test {
         cauldronInstanceWETH = bentoBox.deploy(address(cauldronMasterContract), data, true);                
         vm.stopPrank();        
 
-        console.log(unicode"🧨 Let's see if you can break it... 🧨");
+        console.log(unicode"\n are you sure that's gonna run? 👀");
     }
 
     function testExploit() public {        
@@ -98,13 +98,13 @@ contract Free2Call is Test {
 
         //!! EXPLOIT START  !!                                
         
-          //...your code here
+         //...your code here
         
         // !! EXPLOIT END !!
          
         
         validation();
-        console.log(unicode"\n🎉 Congratulations, you can go to the next level! 🎉");
+        console.log(unicode"\n you got it, nice work!🔥");
     }
 
     function validation() internal {        

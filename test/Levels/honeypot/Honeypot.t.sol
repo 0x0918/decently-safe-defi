@@ -75,7 +75,7 @@ contract Honeypot is Test {
         weth.deposit{value: 100 ether}();
         vm.stopPrank();
         
-        console.log(unicode"🧨 Let's see if you can break it... 🧨");
+        console.log(unicode"\n are you sure that's gonna run? 👀");
     }
 
     function testExploit() public {        
@@ -107,7 +107,7 @@ contract Honeypot is Test {
         // !! POST-EXPLOIT END  !!
                  
         validation();
-        console.log(unicode"\n🎉 Congratulations, you can go to the next level! 🎉");
+        console.log(unicode"\n you got it, nice work!🔥");
     }
 
     function validation() internal {

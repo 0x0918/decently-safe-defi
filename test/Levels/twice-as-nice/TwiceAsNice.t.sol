@@ -78,7 +78,7 @@ contract TwiceAsNice is Test {
         cauldronInstance = bentoBox.deploy(address(cauldronMasterContract), data, true);        
         vm.stopPrank();
         
-        console.log(unicode"🧨 Let's see if you can break it... 🧨");
+        console.log(unicode"\n are you sure that's gonna run? 👀");
     }
 
     function testExploit() public {
@@ -147,12 +147,12 @@ contract TwiceAsNice is Test {
          * i.e. access to v, r, s, digest and v1, r1, s1, digest1 - should you need any of it.
          */        
 
-         //...your code here
+          //...your code here
 
-        // !! EXPLOIT END !!
+         // !! EXPLOIT END !!
         
         validation();
-        console.log(unicode"\n🎉 Congratulations, you can go to the next level! 🎉");
+        console.log(unicode"\n you got it, nice work!🔥");
     }
 
     function validation() internal {
